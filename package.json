@@ -1,0 +1,29 @@
+{
+    "name": "promo3-webpack",
+    "version": "1.0.0",
+    "description": "A training project for webpack for Simplon.co's third promotion at Lyon's site",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --watch",
+        "serve": "webpack-dev-server --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/simplon-lyon/promo3-webpack.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/simplon-lyon/promo3-webpack/issues"
+    },
+    "homepage": "https://github.com/simplon-lyon/promo3-webpack#readme",
+    "dependencies": {
+        "jquery": "^3.2.1"
+    },
+    "devDependencies": {
+        "webpack": "^3.5.5",
+        "webpack-dev-server": "^2.7.1"
+    }
+}
